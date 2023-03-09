@@ -1,0 +1,2 @@
+# image-classification-using-pytorch
+This classifier uses the CIFAR-10 dataset, which consists of 50,000 training images and 10,000 test images of size 32x32. The CNN architecture has two convolutional layers followed by three fully connected layers. The ReLU activation function is used for all layers except the output layer, which uses a softmax function. The Adam optimizer is used for training. After training for five epochs, the classifier achieves an accuracy of around 60-70% on the test images.
